@@ -1,0 +1,46 @@
+.message {
+  padding: 10px;
+  margin: 10px;
+  width: fit-content;
+  max-width: 95%;
+  overflow-wrap: break-word;
+  
+}
+
+.message_user {
+  margin-left: auto;
+  color: white;
+  text-align: left !important;
+}
+
+.message_userCard {
+  /* From https://css.glass */
+  /* From https://css.glass */
+  background: rgba(182, 194, 245, 0.219) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(7.9px) !important;
+  -webkit-backdrop-filter: blur(7.9px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.42) !important;
+}
+
+.message_guestCard {
+  /* From https://css.glass */
+  /* From https://css.glass */
+  background: rgba(243, 3, 3, 0.1) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(7.9px) !important;
+  -webkit-backdrop-filter: blur(7.9px) !important;
+  border: 1px solid rgba(247, 244, 244, 0.42) !important;
+}
+
+.message_userCard .msg_text {
+  color: rgba(255, 255, 255, 0.89);
+  font-size: 20px !important;
+}
+
+.message_guestCard .msg_text {
+  color: rgba(255, 255, 255, 0.993);
+  font-size: 20px !important;
+}
